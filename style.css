@@ -1,15 +1,83 @@
-.bg-img {
-
-  background-image: linear-gradient(to right, rgba(3, 252, 200), rgba(28, 118, 200));
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+@media (max-width: 1000px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
 }
 
-.ball {
-  position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
+
+.build-images {
+    -webkit-filter: brightness(100%);
 }
+
+.build-images:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.t-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+hr {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+color: white;
+}
+
+.builds-title{
+  text-align: center;
+  color: white;
+  font-size: 530%
+}
+
+.bg-img{
+background-color:rgb(23, 23, 23);
+}
+
 .jumbo-small-text{
   font-size: 30px;
 }
@@ -24,6 +92,7 @@
 
 .title{
   font-size: 100px;
+  color:white;
 }
 
 html, body {
