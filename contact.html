@@ -1,24 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!-- Required meta tags -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Maxims Portfolio</title>
+  </head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
   <title>Maxim's Portfolio</title>
-</head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<body class="back-black">
-  <div class="container neon-container">
-      <h1 class="neonText n1">
-            404
-      </h1>
-      <h2 class="neonText n2">Page Not Found</h2>
+<body class="bg-img">
+  <!--nav bar Start-->
+  <header class="header">
+    <h1 class="logo"><a href="#">
+<img class="ohlogo" src="https://i.imgur.com/tnhiphw.png" alt="that lil 3 oh">
+    </a></h1>
+      <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </header>
+  <!--nav bar end-->
+<h1 class="display-1 center mt-4 bold mb-4 title">Contact Me!</h1>
 
-   </div>
-</body>
-</html>
+  <div class="container form mb-5">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Your Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email..">
+
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+
+
+  <!-- Footer creds to: https://bootsnipp.com/snippets/xbAlG-->
+  <section class="footer-section">
+    <div class="container">
+        <div class="row footer-section-row">
+            <div class="col-md-4">
+                <div class="address">
+                    <div class="left-icon">
+                        <img class="infologo" src="https://pnggrid.com/wp-content/uploads/2021/07/Google-Map-Logo-Transparent.png">
+                    </div>
+                    <div class="right-text">
+                        <h3>Address</h3>
+                        <p>Marlboro High School</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="address">
+                    <div class="left-icon">
+                        <img class="infologo" src="https://pnggrid.com/wp-content/uploads/2021/04/Gmail-Transparent-Logo-1024x768.png">
+                    </div>
+                    <div class="right-text">
+                        <h3>Email</h3>
+                        <p>523mzinchenko@frhsd.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="footer-title"><span class="footer-title-text">Quick Nav</span><span class="footer-title-underline"></span></h3>
+                <ul class="quick-link-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3 class="footer-title title-transparent">Quick Link</h3>
+                <ul class="quick-link-list">
+                    <li><a href="honda.html">Honda Build</a></li>
+                    <li><a href="ram.html">Ram Build</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3 class="footer-title title-transparent">Quick Link</h3>
+                <ul class="quick-link-list">
+                    <li></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div id="social">
+                  <a class="social" href="#"><img class="social" src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg" alt="instagram logo"></a>
+                  <a class="social" href="#"><img class="social" src="https://2vlxmp3sk434ulstw3ckqlly-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/facebook-transparent-logo-png-0-270x270.png" alt="facebook logo"></a>
+                  <a class="social" href="#"><img class="social" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/1200px-YouTube_social_white_squircle.svg.png" alt="facebook logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="footer-section-bottom">
+              <div class="center white">
+                  <p>© Maxim Zinchenko</p>
+  </section>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+  </html>

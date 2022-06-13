@@ -1,3 +1,21 @@
+.gallery-desc{
+  font-size: 200%;
+}
+.desc{
+  font-size: 120%
+}
+.black{
+  color: rgb(46, 46, 46);
+}
+.ram-description{
+  font-size: 300%;
+}
+.carousel{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #gallery {
    line-height:0;
    -webkit-column-count:5; /* split it into 5 columns */
@@ -55,10 +73,28 @@
     transition: all .4s ease;
 }
 
+.website-images{
+  -webkit-filter: brightness(100%);
+}
+.website-images:hover{
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
 .t-center {
   margin-left: auto;
   margin-right: auto;
   width: 100%
+}
+.ram-name{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 hr {
@@ -267,3 +303,501 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     height: 2px;
     width: 100%;
 }
+
+
+
+
+
+
+
+/* footer start*/
+
+.infologo {
+  width: 35px;
+}
+
+.social {
+  width: 20%;
+}
+
+
+section {
+  margin: 0em 0em 0em 0em;
+  padding: 3em 10em 3em 10em;
+}
+
+.footer-section {
+  background: black;
+}
+
+.footer-section-row {
+  background: black;
+  padding: 18px;
+  margin-bottom: 50px;
+}
+
+.address {
+  padding: 10px;
+  display: flex;
+}
+
+.right-text {
+  padding-left: 28px;
+}
+
+.right-text h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.right-text p {
+  margin: 0px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f7bb07;
+  font-size: 20px;
+
+  font-weight: 700;
+  position: relative;
+}
+/* .footer-title span::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 117px;
+  height: 2px;
+  background-color: #f7bb07;
+} */
+
+.footer-title-text {
+  background: black;
+  z-index: 999;
+  position: relative;
+}
+
+.footer-title-underline {
+  height: 1px;
+  background-color: #f7bb07;
+  width: 100%;
+  position: absolute;
+  bottom: 3px;
+  left: 0px;
+}
+
+.quick-link-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.quick-link-list li a {
+  color: #fff;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.footer-section-bottom {
+  background: #000000;
+  padding: 17px 0px;
+}
+
+.footer-bottom-left p {
+float: center;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-bottom-right p {
+  margin: 0px;
+  color: #fff;
+  text-align: right;
+}
+
+.footer-bottom-right p a {
+  color: #dcd735;
+}
+
+.title-transparent {
+  opacity: 0 !important;
+}
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn {
+  /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ddd;
+  /* add border to the buttons */
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
+}
+/* facebook button class*/
+
+.facebookBtn {
+  background: #4060a5;
+}
+
+.facebookBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f09a";
+  /* add facebook icon */
+}
+
+.facebookBtn:hover {
+  color: #4060a5;
+  background: #fff;
+  border-color: #4060a5;
+  /* change the border color on mouse hover */
+}
+/* twitter button class*/
+
+.twitterBtn {
+  background: #00abe3;
+}
+
+.twitterBtn:before {
+  font-family: "FontAwesome";
+  content: "\f099";
+  /* add twitter icon */
+}
+
+.twitterBtn:hover {
+  color: #00abe3;
+  background: #fff;
+  border-color: #00abe3;
+}
+/* google plus button class*/
+
+.googleplusBtn {
+  background: #e64522;
+}
+
+.googleplusBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0d5";
+  /* add googleplus icon */
+}
+
+.googleplusBtn:hover {
+  color: #e64522;
+  background: #fff;
+  border-color: #e64522;
+}
+/* linkedin button class*/
+
+.linkedinBtn {
+  background: #0094bc;
+}
+
+.linkedinBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0e1";
+  /* add linkedin icon */
+}
+
+.linkedinBtn:hover {
+  color: #0094bc;
+  background: #fff;
+  border-color: #0094bc;
+}
+/* youtube button class */
+
+.youtubeBtn {
+  background: #bf1d23;
+}
+
+.youtubeBtn:before {
+  font-family: "FontAwesome";
+  content: "\f167";
+  /* add linkedin icon */
+}
+
+.youtubeBtn:hover {
+  color: #bf1d23;
+  background: #fff;
+  border-color: #bf1d23;
+}
+/* youtube button class */
+/* pinterest button class*/
+
+.pinterestBtn {
+  background: #cb2027;
+}
+
+.pinterestBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0d2";
+  /* add pinterest icon */
+}
+
+.pinterestBtn:hover {
+  color: #cb2027;
+  background: #fff;
+  border-color: #cb2027;
+}
+/* tumblr button class*/
+
+.tumblrBtn {
+  background: #3a5876;
+}
+
+.tumblrBtn:before {
+  font-family: "FontAwesome";
+  content: "\f173";
+  /* add tumblr icon */
+}
+
+.tumblrBtn:hover {
+  color: #3a5876;
+  background: #fff;
+  border-color: #3a5876;
+}
+/* rss button class*/
+
+.rssBtn {
+  background: #e88845;
+}
+
+.rssBtn:before {
+  font-family: "FontAwesome";
+  content: "\f09e";
+  /* add rss icon */
+}
+
+.rssBtn:hover {
+  color: #e88845;
+  background: #fff;
+  border-color: #e88845;
+}
+
+.form-control-new {
+  border-radius: 0px;
+  position: relative;
+}
+
+.form-control-new:before {
+  content: "/f0e0";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.newsletter {
+  color: #fff;
+}
+
+.subscribe {
+  width: 100%;
+  border-radius: 0px;
+  background: #24829f;
+  border: 1px solid #6ac5e1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* footer end*/
+
+/*gallery css start creds:https://codepen.io/samnorton/pen/zBYMJG*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.ohlogo{
+width: 12%;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 22px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*gallery css end*/
+
+/*new nav bar start*/
+
+* {
+	box-sizing: border-box;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	display: block;
+  margin-left: 25px;
+}
+
+.main-nav a {
+	color: #f0f0f0;
+	font-size: 1.2em;
+}
+
+.main-nav a:hover {
+	color: #fcfcfc;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #000000;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+/*new nav bar end*/
+
+
+/*form start*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #202020;
+}
+
+/* Add a background color and some padding around the form */
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*form end*/
+
+
+
+
+
+
+/*gallery start*/
+
+/*gallery end*/
