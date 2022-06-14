@@ -1,3 +1,94 @@
+.flex { display: flex; }
+.mr { margin-right: 1em; }
+
+
+.outline{
+  border-color: white;
+  border-radius: 25px;
+  border: solid #ffffff;
+  padding: 20px;
+  width: 200%;
+}
+.lead{
+  font-size: 150%;
+}
+.blck{
+  background-color: black;
+}
+.wb{
+  color: white;
+  background-color: white;
+  width: 60%;
+}
+.hobbies-title{
+  font-size: 300%;
+}
+.test {
+  display: flex;
+  width: 65%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, .5);
+  line-height: 0;
+  background-color: rgb(13, 13, 13);
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.underline{
+  text-decoration: underline;
+  font-size: 450%;
+  margin-bottom: 3%;
+}
+
+.build-description{
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  width: 55%;
+}
+
+.aboutmedesc{
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  width: 70%;
+}
+
+.build-descm{
+  font-size: 200%;
+}
+
 .gallery-desc{
   font-size: 200%;
 }
